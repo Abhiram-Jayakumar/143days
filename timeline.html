@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Lane - Timeline</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+    }
+    .header h1 {
+      font-family: 'Pacifico', cursive;
+      color: #ff6f91;
+    }
+    .nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #ff6f91;
+      font-weight: bold;
+    }
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: #ff6f91;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: -3px;
+    }
+    .timeline-container {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    .timeline-container.left {
+      left: 0;
+    }
+    .timeline-container.right {
+      left: 50%;
+    }
+    .timeline-container::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -17px;
+      background-color: white;
+      border: 4px solid #ff6f91;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .right::after {
+      left: -16px;
+    }
+    .timeline-content {
+      padding: 20px 30px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+    }
+    .timeline-content img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .timeline-content h2 {
+      font-size: 1.5em;
+      color: #ff6f91;
+    }
+    .timeline-content p {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    p {
+      font-family: 'Pacifico', cursive;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Abhi_pOoj</h1>
+    <nav class="nav">
+      <a href="./index.html">Home</a>
+      <a href="./timeline.html">Timeline</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./love-letters.html">Love Letters</a>
+      <a href="./future-plans.html">Future Plans</a>
+    </nav>
+  </div>
+  <div>
+    <b><i><p align="center">I'm adding a few images that are stuck in my mind. I know every picture represents a timeline for us, but until day 143, this one is the most special for us. I'm adding it here.</p></i></b>
+  </div>
+  <div class="timeline">
+    <div class="timeline-container left">
+      <div class="timeline-content">
+        <h2>Day 1: Our First Date</h2>
+        <p>Our first photo together still remembers that like yesterday.</p>
+        <img src="https://i.postimg.cc/ry5jXq84/firstdate.jpg" alt="First Date">
+      </div>
+    </div>
+    <div class="timeline-container right">
+      <div class="timeline-content">
+        <h2>Day 2: Our First Trip</h2>
+        <p>It's our official date. I still remember the very first kiss I got from you. My hands still shake thinking about it.</p>
+        <img src="https://i.postimg.cc/sfBFpQ4r/20230928-124753.jpg" alt="First Trip">
+      </div>
+    </div>
+    <div class="timeline-container left">
+      <div class="timeline-content">
+        <h2>Day 3: Celebrating Our First Month</h2>
+        <p>I think it's actually our 2nd or 3rd breakup time...😁</p>
+        <img src="https://i.postimg.cc/FFbyCGZg/IMG-20231130-WA0031.jpg" alt="First Month Celebration">
+      </div>
+    </div>
+    <div class="timeline-container right">
+      <div class="timeline-content">
+        <h2>Day 4: The Art and the Artist</h2>
+        <p>The Awega times... my first own drawing.</p>
+        <img src="https://i.postimg.cc/HsGt6CK7/IMG-20231211-153210.jpg" alt="Milestone Celebration">
+      </div>
+    </div>
+    <div class="timeline-container left">
+      <div class="timeline-content">
+        <h2>Day 5: An Sudden Decision</h2>
+        <p>Shall we get married today? Do you remember the question you asked me?</p>
+        <img src="https://i.postimg.cc/B6r27xhG/IMG-20240121-WA0020.jpg" alt="Special Day">
+      </div>
+    </div>
+    <div class="timeline-container right">
+      <div class="timeline-content">
+        <h2>Day 6: The Ship</h2>
+        <p>I never in my life waited or hesitated to kiss you this much. I still remember we tried to kiss without being seen by the school kids.</p>
+        <img src="https://i.postimg.cc/qvDhZsRZ/IMG-20240126-WA0024.jpg" alt="Special Day">
+      </div>
+    </div>
+    <div class="timeline-container left">
+      <div class="timeline-content">
+        <h2>Day 7: My Trophy</h2>
+        <p>Those group study nights... I think we both learned so much.</p>
+        <img src="https://i.postimg.cc/J0Qt3Jvx/IMG-20240201-WA0009.jpg" alt="Special Day">
+      </div>
+    </div>
+    <div class="timeline-container right">
+      <div class="timeline-content">
+        <h2>Day 8: Grease in My Neck...😂</h2>
+        <p>The night we can't both forget. We both saw the wild animals.</p>
+        <img src="https://i.postimg.cc/mkrk6Rhb/IMG-20240204-WA0079.jpg" alt="Special Day">
+      </div>
+    </div>
+    <div class="timeline-container left">
+      <div class="timeline-content">
+        <h2>Day 9: 💙🔔</h2>
+        <p>Our own 💙🔔.. and 🌸.</p>
+        <img src="https://i.postimg.cc/pdtTMKyc/IMG-0910.avif" alt="Special Day">
+      </div>
+    </div>
+    <div class="timeline-container right">
+      <div class="timeline-content">
+        <h2>Day 10: I Got a Sister</h2>
+        <p>I got a sister for myself. We are adopting her, right?</p>
+        <img src="https://i.postimg.cc/59GfM8R5/IMG-20240422-WA0136.jpg" alt="Special Day">
+      </div>
+    </div>
+    <div class="timeline-container left">
+      <div class="timeline-content">
+        <h2>Day 11: Saree💕</h2>
+        <p>Whenever I see you in a saree, you steal my heart always. ❤️🕊️</p>
+        <img src="https://i.postimg.cc/6pxw8twy/trashed-1717005762-IMG-20240429-233230.jpg" alt="Special Day">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Till- 2024 Memory Lane. All rights reserved. by my darling Abhi_POoj</p>
+    <p>Created with love by [Abhi_POoj]</p>
+  </footer>
+</body>
+</html>
