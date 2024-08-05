@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise for Pooja</title>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #ff66b2;
+    margin-bottom: 20px;
+}
+
+.message p {
+    font-size: 18px;
+    color: #333;
+}
+
+.reveal-btn {
+    background: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.reveal-btn:hover {
+    background: #ff3399;
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.hidden-message p {
+    font-size: 20px;
+    color: #333;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="title">A Special Surprise for You, Poojuuuu!</h1>
+            <div class="message" id="message">
+                <p>Surprise! 💖</p>
+                <p>Click the button below to reveal a special message just for you.</p>
+            </div>
+            <button onclick="revealMessage()" class="reveal-btn">Reveal Surprise</button>
+            <div class="hidden-message" id="hidden-message">
+                <p>Pooja, you are my everything. Your surprises and love make every moment magical. Thank you for making my birthday so special. I love you more than words can express.</p>
+                    <iframe allow="fullscreen;autoplay" allowfullscreen height="20%" src="https://streamable.com/e/jloyi9?autoplay=1" width=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function revealMessage() {
+    document.getElementById('message').style.display = 'none';
+    document.getElementById('hidden-message').style.display = 'block';
+}
+
+    </script>
+</body>
+</html>
